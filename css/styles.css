@@ -1,0 +1,283 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.list,
+.link-focus,
+.ul-address {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  background-color: #FFEBCD;
+  /* background-image: url("/img/1672354479_flomaster-club-p-afina-illyustratsiya-vkontakte-1.jpg"); */
+}
+
+.head_h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 0.1em;
+  color: #ffff;
+  background-color: #ceb865;
+  text-align: center;
+  padding: 10px;
+  text-shadow: 3px 1px 2px #000000;
+}
+
+.abaut {
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* gap: 50px; */
+  background-color: #FFEBCD;
+  margin-top: 10px;
+}
+
+.abaut__left {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+
+}
+
+.abaut__left-img {
+  width: 460px;
+  height: 500px;
+  border: dashed #ceb865;
+  padding: 20px 10px;
+  /* margin: 10px; */
+
+}
+
+.abaut__left-img1 {
+  box-shadow: 5px 5px 2px #696969;
+  width: 460px;
+  height: 450px;
+}
+
+.abaut__left-1 {
+  display: flex;
+  gap: 10px;
+  margin-right: 10px;
+}
+
+.abaut__left-text {
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  text-shadow: 2px 1px 2px #DCDCDC;
+  font-size: 22px;
+  letter-spacing: 0.2em;
+  color: #421303;
+  line-height: 50px;
+  height: 500px;
+  /* text-align: center; */
+  padding: 10px;
+  border: dashed #ceb865;
+
+  background: linear-gradient(#ceb865, 80%, #FFEBCD);
+}
+
+.abaut__information {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+.abaut__information-img {
+  width: 600px;
+  height: 500px;
+  border: dashed #ceb865;
+  padding: 4px;
+}
+
+.abaut__information-text {
+  font-family: 'Raleway', sans-serif;
+
+  font-size: 22px;
+  letter-spacing: 0.1em;
+  color: #ffff;
+  background-color: #ceb865;
+  text-align: center;
+  padding: 10px;
+  width: 600px;
+  height: 180px;
+
+
+}
+
+.abaut__bottom-h3 {
+  text-shadow: 2px 1px 2px #000000;
+}
+
+.abaut__bottom {
+  font-family: 'Raleway', sans-serif;
+
+  font-size: 22px;
+  letter-spacing: 0.1em;
+  color: #ffff;
+  background-color: #ceb865;
+  width: 1280px;
+  padding: 30px;
+  margin-bottom: 10px;
+}
+
+.abaut__bottom-1 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 15px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+
+}
+
+.section__top {
+  display: flex;
+  gap: 10px;
+}
+
+.section__research {
+  border: dashed #ceb865;
+  width: 920px;
+
+  /* padding: 1px; */
+}
+
+.section__research-h3 {
+  padding: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-shadow: 2px 1px 2px #DCDCDC;
+  font-size: 22px;
+  letter-spacing: 0.2em;
+  text-align: center;
+  color: #421303;
+  line-height: 50px;
+  background: linear-gradient(#ceb865, 80%, #FFEBCD);
+  margin-bottom: 50px;
+}
+
+.section__research-ol {
+  font-family: 'Raleway', sans-serif;
+  text-shadow: 2px 1px 2px #DCDCDC;
+  font-size: 22px;
+  letter-spacing: 0.1em;
+  color: #421303;
+  line-height: normal;
+  padding: 10px 40px;
+  /* height: 400px; */
+}
+
+.section__research-il {
+  margin-bottom: 20px;
+}
+
+.section__description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* margin-bottom: 10px; */
+  font-family: 'Raleway', sans-serif;
+  text-shadow: 2px 1px 2px #DCDCDC;
+  font-size: 22px;
+  letter-spacing: 0.1em;
+  color: #421303;
+  line-height: normal;
+  padding: 20px 10px;
+  width: 2100px;
+  /* height: 435px; */
+  border: dashed #ceb865;
+
+}
+.box {
+  float: left;
+  margin-right: 15px;
+  width: 450px;
+  height: 150px;
+  border-radius: 5px;
+  background-image: url('/img/50.jpg');
+  background-color: rgb(207, 232, 220);
+  padding: 1em;
+}
+.box1 {
+  float: right;
+  margin-right: 15px;
+  width: 450px;
+  height: 160px;
+  border-radius: 5px;
+  background-image: url('/img/55.jpg');
+  background-color: rgb(207, 232, 220);
+  padding: 1em;
+}
+/* .section__description-img {
+width: 2100px;
+
+} */
+/* ================ conclusion =========================== */
+
+.conclusion {
+  font-family: 'Raleway', sans-serif;
+
+  font-size: 22px;
+  letter-spacing: 0.1em;
+  color: #ffff;
+  background-color: #ceb865;
+  padding: 30px;
+}
+
+.conclusion__h2 {
+  text-shadow: 2px 1px 2px #000000;
+
+}
+.conclusion__ol {
+  padding: 10px 40px;
+}
+.conclusion__li {
+  margin-bottom: 10px;
+         letter-spacing: 0.1em;
+      font-size: 1.6em;
+      color: #ffff;
+      background-color: #ceb865;
+      text-shadow: 1px 1px 1px #000000;
+
+}
