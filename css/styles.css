@@ -43,19 +43,22 @@ button {
 
 body {
   background-color: #FFEBCD;
+    /* width: 210mm;
+      height: 297mm; */
   /* background-image: url("/img/1672354479_flomaster-club-p-afina-illyustratsiya-vkontakte-1.jpg"); */
 }
 
 .head_h1 {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 56px;
   letter-spacing: 0.1em;
   color: #ffff;
   background-color: #ceb865;
   text-align: center;
-  padding: 10px;
+  padding: 50px;
   text-shadow: 3px 1px 2px #000000;
+
 }
 
 .abaut {
@@ -64,6 +67,7 @@ body {
   /* gap: 50px; */
   background-color: #FFEBCD;
   margin-top: 10px;
+      width: 210mm;
 }
 
 .abaut__left {
@@ -84,7 +88,7 @@ body {
 
 .abaut__left-img1 {
   box-shadow: 5px 5px 2px #696969;
-  width: 480px;
+  width: 460px;
   height: 420px;
 }
 
@@ -119,7 +123,7 @@ body {
 }
 
 .abaut__information-img {
-  width: 600px;
+  /* width: 600px; */
   height: 500px;
   border: dashed #ceb865;
   padding: 4px;
