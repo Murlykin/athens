@@ -77,15 +77,15 @@ body {
   width: 460px;
   height: 500px;
   border: dashed #ceb865;
-  padding: 20px 10px;
+  padding: 30px 10px;
   /* margin: 10px; */
 
 }
 
 .abaut__left-img1 {
   box-shadow: 5px 5px 2px #696969;
-  width: 460px;
-  height: 450px;
+  width: 480px;
+  height: 420px;
 }
 
 .abaut__left-1 {
